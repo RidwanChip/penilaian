@@ -12,7 +12,7 @@ $penilaianBulanan = $db->jumlahKaryawanBelumDinilaiBulanIni();
 
 Auth();
 ?>
-<h1 class="pt-3">Dashboard</h1>
+<h1 class="pt-3">Halaman Utama</h1>
 <?php
 msg_query();
 ?>
