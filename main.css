@@ -1,0 +1,12 @@
+.bd-sidebar {
+  background: #f8f8f8;
+}
+.navbar {
+  background-color: rgb(218, 222, 223);
+}
+.main {
+  min-height: 100vh;
+}
+.form-login {
+  background: rgba(233, 247, 245, 0.664);
+}
