@@ -17,3 +17,10 @@ Aplikasi ini dibangun menggunakan **PHP** dengan pendekatan **Object-Oriented Pr
 - **Database**: MySQL
 - **Frontend**: HTML, CSS, JavaScript (Bootstrap)
 - **PDF Generator**: [FPDF Library](http://www.fpdf.org/)
+
+## Installasi
+- Rename folder project menjadi penilaian
+- Tempatkan folder pada default directory webserver. XAMPP(htdocs) / Laragon(wwww)
+- Jalankan Webserver database
+- Import file sql ke database dengan nama database 'penilaian_saw'
+- login dengan username dan password default 'admin'
