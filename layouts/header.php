@@ -27,7 +27,7 @@ include '../penilaian/Widgets/Auth.php';
                         <i class="bi bi-menu-button-wide"> </i>Menu
                     </button>
                     <a class="navbar-brand mx-lg-2" href="../penilaian/page.php?q=home"><button class="btn btn-sm btn-info text-white">SPK Karyawan</button> </a>
-                    <img src="logo_jlm.png" alt="" height="20px">
+                    <img src="your_logo.png.png" alt="" height="20px">
                 </div>
             </nav>
             <aside class="bd-sidebar col col-12 col-sm-12 col-lg-2 h-100vh pt-3">

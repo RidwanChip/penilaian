@@ -31,7 +31,7 @@ include 'Widgets/badge.php';
     <div class="form-login position-absolute top-50 start-50 translate-middle p-3" style="min-width: 300px; max-width: 500px;">
 
         <h2 class=" text-center mb-3">
-            <img src="logo_jlm.png" alt="" height="30px">
+            <img src="your_logo.png" alt="" height="30px">
             <br>
             Login
         </h2>

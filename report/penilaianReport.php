@@ -35,7 +35,7 @@ if (!empty($rankingData)) {
             function Header()
             {
                 // Logo
-                $this->Image('../penilaian/report/logo_jlm.png', 10, 5, 30);
+                $this->Image('../penilaian/report/your_logo.png.png', 10, 5, 30);
                 $namePT = "PT. Jala Lintas Media";
                 // Alamat
                 $address = "Jl. Raya Mayor Oking Jaya Atmaja No.89, Ciriung, Kec. Cibinong, Kabupaten Bogor, Jawa Barat 16917";
