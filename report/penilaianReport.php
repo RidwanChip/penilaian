@@ -35,10 +35,11 @@ if (!empty($rankingData)) {
             function Header()
             {
                 // Logo
-                $this->Image('../penilaian/report/your_logo.png.png', 10, 5, 30);
-                $namePT = "PT. Jala Lintas Media";
+                // add your own logo here
+                // $this->Image('../penilaian/report/your_logo.png.png', 10, 5, 30);
+                $namePT = "PT. 404";
                 // Alamat
-                $address = "Jl. Raya Mayor Oking Jaya Atmaja No.89, Ciriung, Kec. Cibinong, Kabupaten Bogor, Jawa Barat 16917";
+                $address = "Far Away";
 
                 // PT
                 $this->SetFont('Arial', 'B', 20);
@@ -55,7 +56,7 @@ if (!empty($rankingData)) {
 
                 // Judul
                 $this->SetFont('Arial', 'B', 12);
-                $this->Cell(0, 10, 'Hasil Penilaian Karyawan Kontrak', 0, 1, 'C');
+                $this->Cell(0, 10, 'Hasil Penilaian ', 0, 1, 'C');
 
                 // Garis bawah
                 $this->Ln(1);
@@ -135,7 +136,7 @@ if (!empty($rankingData)) {
         $indonesianDay = getIndonesianDay($date);
         $indonesianMonth = getIndonesianMonth($date);
         $formattedDate = $indonesianDay . ' ' . date('d ') . $indonesianMonth . date(' Y'); // Format: Hari, Tanggal Bulan Tahun
-        $pdf->Signature('Bogor', $formattedDate, 'Fristiandi Nugroho', 'Mengetahui,', 'Manager HR');
+        $pdf->Signature('Bogor', $formattedDate, 'People Name', 'Mengetahui,', 'Manager HR');
 
         // Output file PDF
         ob_clean();
