@@ -9,60 +9,60 @@ include 'layouts/header.php';
             if (isset($_GET['q'])) {
                 $q = $_GET['q'];
                 switch ($q) {
-                        //Home
+                    //Home
                     case 'home':
                         include "../penilaian/home.php";
                         break;
-                        //Karyawan Routes
+                    //Karyawan Routes
                     case 'karyawanView':
-                        include "../penilaian/views/karyawanView.php";
+                        include "../penilaian/Views/karyawanView.php";
                         break;
                     case 'karyawanEdit':
-                        include "../penilaian/forms/karyawanEdit.php";
+                        include "../penilaian/Forms/karyawanEdit.php";
                         break;
                     case 'karyawanAct':
                         include "../penilaian/Proses/karyawanProses.php";
                         break;
                     case 'karyawanInput':
-                        include "../penilaian/forms/karyawanInput.php";
+                        include "../penilaian/Forms/karyawanInput.php";
                         break;
-                        //Kriteria Routes
+                    //Kriteria Routes
                     case 'kriteriaView':
-                        include "../penilaian/views/kriteriaView.php";
+                        include "../penilaian/Views/kriteriaView.php";
                         break;
                     case 'kriteriaEdit':
-                        include "../penilaian/forms/kriteriaEdit.php";
+                        include "../penilaian/Forms/kriteriaEdit.php";
                         break;
                     case 'kriteriaAct':
                         include "../penilaian/Proses/kriteriaProses.php";
                         break;
                     case 'kriteriaInput':
-                        include "../penilaian/forms/kriteriaInput.php";
+                        include "../penilaian/Forms/kriteriaInput.php";
                         break;
-                        //Penilaian Routes
+                    //Penilaian Routes
                     case 'penilaianView':
-                        include "../penilaian/views/penilaianView.php";
+                        include "../penilaian/Views/penilaianView.php";
                         break;
                     case 'dataView':
-                        include "../penilaian/views/dataPenilaianView.php";
+                        include "../penilaian/Views/dataPenilaianView.php";
                         break;
                     case 'penilaianEdit':
-                        include "../penilaian/forms/penilaianEdit.php";
+                        include "../penilaian/Forms/penilaianEdit.php";
                         break;
                     case 'penilaianAct':
                         include "../penilaian/Proses/penilaianProses.php";
                         break;
                     case 'penilaianInput':
-                        include "../penilaian/forms/penilaianInput.php";
+                        include "../penilaian/Forms/penilaianInput.php";
                         break;
-                        //Ranking Routes
+                    //Ranking Routes
                     case 'rankView':
-                        include "../penilaian/views/rankingView.php";
+                        include "../penilaian/Views/rankingView.php";
                         break;
                     case 'rankReport':
                         include "../penilaian/report/penilaianReport.php";
                         break;
-                        //Login
+                    //Login
                     case 'loginAct':
                         include "../penilaian/Proses/loginProses.php";
                         break;

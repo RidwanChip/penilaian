@@ -4,7 +4,7 @@ namespace Models;
 
 class Database
 {
-    public $host = "localhost";
+    public $host = "localhost:3307";
     public $uname = "root";
     public $pass = "";
     public $db = "penilaian_saw";
